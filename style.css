@@ -9,6 +9,7 @@
 
 .main {
   width: 90%;
+  min-width: 300px;
 }
 
 .nav_bar {
@@ -102,7 +103,7 @@ header {
 
 .add_comment > textarea {
   height: 130px;
-  width: 600px;
+  width: 97%;
 }
 
 .add_comment > button {
@@ -125,6 +126,7 @@ header {
   align-items: center;
   background-color: rgba(230, 225, 218, 0.65);
   margin-top: 40px;
+  width: 97%;
 }
 .about_author > img {
   width: 200px;
@@ -144,6 +146,18 @@ header {
     font-size: 26px;
   }
 }
+@media (max-width: 460px) {
+  .about_author > div > p {
+    font-size: 11px;
+  }
+  .about_author > div > h3 {
+    font-size: 14px;
+  }
+  .about_author > img {
+    height: 100px;
+    width: 100px;
+  }
+}
 
 @media (max-width: 990px) {
   .block > div > div > h2 {
@@ -158,6 +172,18 @@ header {
 }
 
 @media (max-width: 650px) {
+  .left > p {
+    font-size: small;
+  }
+}
+
+@media (max-width: 650px) {
+  .left > p {
+    font-size: small;
+  }
+}
+
+@media (max-width: 725px) {
   .left > p {
     font-size: small;
   }
